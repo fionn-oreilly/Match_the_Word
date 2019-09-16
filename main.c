@@ -1,4 +1,5 @@
-/*  Author: Fionn O Reilly
+/* 
+ *  Author: Fionn O Reilly
  *  Description: main file for word_game.c
  */
 
@@ -12,7 +13,7 @@ int main()
     char  current_letters[] = {'b', 'e', 'l','l'};
     char target_letters[] = {'c', 'o', 'a','t'};
     const int NUMBER_OF_LETTERS = sizeof(current_letters);
-    start_game(&current_letters,&target_letters,NUMBER_OF_LETTERS);
+    start_game(&current_letters,&target_letters,NUMBER_OF_LETTERS); // call to function in word_game.c
 
     return 0;
 }
